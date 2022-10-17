@@ -1,0 +1,9 @@
+{
+  "TITLE": "Statistiques",
+  "PERIOD_MONTH": "Mois",
+  "PERIOD_DROPDOWN_PLACEHOLDER": "Les 30 derniers jours",
+  "STATS_CALLS_MADE": "Appels programmés",
+  "STATS_CANCELED_CALLS": "Appels annulés",
+  "STATS_DEFERRED_CALLS": "Appels honorés",
+  "STATS_AVER_DURATION": "Durée moyenne"
+}

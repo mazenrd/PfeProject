@@ -1,0 +1,16 @@
+@import "../../style/components/colors.scss";
+.task {
+    background-color: $WHITE;
+    border-top: 2px solid $CULTURED;
+    padding: 100px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    height: 34px;
+}
+
+tr:first-child {
+    border-top: none;
+}

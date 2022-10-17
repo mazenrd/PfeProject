@@ -1,0 +1,53 @@
+@import "../../style/components/colors.scss";
+.card-container {
+    flex: 1;
+    height: 100%;
+    padding: 16px 20px;
+    background: $WHITE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px $CULTURED;
+    border-radius: 6px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons {
+    margin-right: 16px;
+    // font-size: 42px;
+}
+
+.status-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    color: purple;
+}
+
+.text-container {
+    padding: 12px 0;
+}
+
+.text-status {
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: $GREY;
+    margin: 0;
+}
+
+.ant-progress-success-bg,
+.ant-progress-bg {
+    position: relative;
+    background-color: $PURPLE;
+    border-radius: 100px;
+}

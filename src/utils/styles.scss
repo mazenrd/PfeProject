@@ -1,0 +1,96 @@
+@import "../shared/style/components/colors.scss";
+.fButton-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    .ant-btn {
+        border: 1px solid $BORDER;
+        border-radius: 3px;
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {}
+
+.desc-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.deliveries-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delivProg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightHeader-container {
+    display: flex;
+    align-items: center;
+}
+
+.hButton-container {
+    justify-content: flex-end;
+    .ant-btn {
+        background-color: $Dropdown;
+    }
+}
+
+.bButton-container {
+    .ant-btn {
+        background-color: $Dropdown;
+    }
+}
+
+.leftProgress-container {
+    flex: 0.5;
+}
+
+.rightProgress-container {
+    flex: 0.5;
+}
+
+.deliveriesHeader-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.repositoryHeader-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.myTeam-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .hButton-container {
+        gap: 10px;
+        display: flex;
+    }
+}
+

@@ -1,0 +1,16 @@
+export const NAME_SPACES = {
+  HOME: "home",
+  FILES: "files",
+  AUTH: "auth",
+  LAYOUT: "layout",
+  ERRORS: "errors",
+  NEW_FOLDER: "newFolder",
+  COMPONENTS: "components",
+  ACCOUNT: "account",
+  ADDRESS: "address",
+  SIDER: "sider",
+  APPOINTMENT: "appointment",
+  IM: "im",
+  ENUMS: "enums",
+  PREFERENCES: "preferences",
+};

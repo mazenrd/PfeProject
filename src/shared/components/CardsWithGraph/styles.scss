@@ -1,0 +1,37 @@
+@import "../../style/components/colors.scss";
+.graphCard-container {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    padding: 16px 16px;
+    background: $WHITE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px $CULTURED;
+    border-radius: 6px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.leftGraphCard-container {
+    &>h1 {
+        white-space: nowrap;
+    }
+}
+
+.rightGraphCard-container {
+    flex: 1;
+    border: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    // width: 50%;
+}
+
+.dataStat-container {
+    color: $EMERALD;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.dataStatText-container {
+    margin: 1em 0;
+}

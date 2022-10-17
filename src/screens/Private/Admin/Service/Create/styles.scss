@@ -1,0 +1,28 @@
+.createService-container {
+  align-items: center;
+  margin: 128px;
+  margin-top: 36px;
+}
+.service-title {
+  text-align: left;
+  font: 32px/50px "Poppins";
+  letter-spacing: 0px;
+  margin: 16px;
+}
+.dependencies-form {
+  align-items: center;
+  justify-content: space-between;
+}
+.dependencies-title {
+  text-align: left;
+  font: 32px/50px "Poppins";
+  letter-spacing: 0px;
+  margin: 16px;
+}
+.dependencies-form {
+  align-items: center;
+  width: 100%;
+}
+.ant-space-item:not(:last-child) {
+  flex: 1;
+}

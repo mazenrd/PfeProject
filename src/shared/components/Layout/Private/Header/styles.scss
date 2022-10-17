@@ -1,0 +1,176 @@
+@import "../../../../style/components/colors.scss";
+.header {
+  background-color: $WHITE;
+  padding: 8px;
+  margin-bottom: 20px;
+  &--wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.left-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.icon-container {
+  padding: 10px;
+  background-color: $CULTURED;
+  border-radius: 4px;
+  position: relative;
+}
+
+.icon-container:hover {
+  cursor: pointer;
+}
+
+.notif {
+  background-color: $PINK;
+  height: 5px;
+  width: 5px;
+  border-radius: 50px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.header-dropdown {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.SurekateLogo-container {
+  margin-right: 10px;
+  height: 42px;
+}
+
+.icon {
+  margin-left: 17.05px;
+}
+
+.avatar {
+  width: 32px;
+}
+
+.menuBar {
+  padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+}
+
+.menuCon {
+  width: calc(100% - 150px);
+  float: left;
+}
+
+.menuCon .ant-menu-item {
+  padding: 0px 5px;
+}
+
+.menuCon .ant-menu-submenu-title {
+  padding: 10px 20px;
+}
+
+.menuCon .ant-menu-item a,
+.menuCon .ant-menu-submenu-title a {
+  padding: 10px 15px;
+}
+
+.menuCon .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.barsMenu {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none;
+  background: none;
+}
+
+.barsBtn {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: $PURPLE;
+  position: relative;
+}
+
+.barsBtn:after,
+.barsBtn:before {
+  content: attr(x);
+  width: 20px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 2px;
+  background: $PURPLE;
+}
+
+.barsBtn:after {
+  top: auto;
+  bottom: -6px;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}
+
+.barsMenu > span {
+  display: block;
+}
+
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+@media (max-width: 580px) {
+  .barsMenu {
+    display: inline-block;
+  }
+
+  .header-search,
+  .right-header {
+    display: none;
+  }
+
+  .menuCon .ant-menu-item,
+  .menuCon .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: white;
+  border-color: white;
+}

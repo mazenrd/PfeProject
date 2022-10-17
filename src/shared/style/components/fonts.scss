@@ -1,0 +1,63 @@
+$TITLE_1: 72px;
+$TITLE_2: 56px;
+$TITLE_3: 40px;
+$TITLE_4: 32px;
+$TITLE_5: 24px;
+$LARGE: 20px;
+$BODY: 18px;
+$PARAGRAPH: 16px;
+$LINK: 14px;
+$SMALL: 12px;
+$MICRO: 10px;
+$SIXTEEN: 16px;
+$FOURTEEN: 14px;
+$TWELVE: 12px;
+$MINI: 8px;
+
+$REGULAR: 400;
+$MEDIUM: 500;
+$SEMI_BOLD: 600;
+$BOLD: 700;
+$EXTRA_BOLD: 800;
+
+
+.heading--72 {
+    font-size: clamp($TITLE_2, 3vw, $TITLE_1);
+    font-weight: $EXTRA_BOLD;
+    @media (max-width: 991px) {}
+}
+.heading--56 {}
+.heading--40 {}
+.heading--32 {}
+.heading--24 {
+    font-size: clamp(18px, 3vw, $TITLE_5);
+    font-weight: $BOLD;
+}
+.text--20 {
+    font-size: clamp(20px, 3vw, $LARGE);
+    font-weight: $REGULAR;
+}
+.text--18 {
+    font-size: clamp(16px, 3vw, $BODY);
+    font-weight: $REGULAR;
+}
+.text--16 {
+    font-size: clamp(14px, 3vw, $SIXTEEN);
+    font-weight: $REGULAR;
+}
+.text--14 {
+    font-size: clamp(12px, 3vw, $FOURTEEN);
+    font-weight: $REGULAR;
+}
+.text--12 {
+    font-size: clamp(12px, 3vw, $MICRO);
+    font-weight: $REGULAR;
+}
+.text--10 {
+    font-size: clamp(10px, 3vw, $MICRO);
+    font-weight: $REGULAR;
+}
+.text--8 {
+    font-size: clamp(8px, 3vw, $MINI);
+    font-weight: $REGULAR;
+}

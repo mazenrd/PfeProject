@@ -1,0 +1,53 @@
+@import "../../../../shared/style/components/colors.scss";
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.repositoryHbutton-container {
+    justify-content: flex-end;
+    .ant-btn {
+        background-color: $LIGHT_GREY_1;
+    }
+}
+
+.desc-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.repositoryText-status {
+    font: normal normal medium Archivo;
+    color: $LIGHT_GREY;
+    margin: 1em 0;
+}
+
+.footerIcons {
+    margin-right: 8px;
+    height: 18px;
+}
+
+.repositoryButton-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    .ant-btn {
+        border: 0px;
+        border-radius: 3px;
+        border-color: $BORDER;
+        padding: 0;
+    }
+}
+
+.icons {
+    margin-right: 10px;
+    font-size: 42px;
+}

@@ -1,0 +1,376 @@
+//Setup
+@import "partials/normalize";
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/helpers";
+@import "partials/mixins";
+@import "partials/fonts";
+@import "partials/colors";
+@import "components/buttons";
+@import "components/table";
+@import "components/modal";
+
+//Base styles
+@import "base/base";
+
+// Page
+@import "pages/home.scss";
+
+.layout--container {
+  min-height: 100vh;
+  padding: 0 50px;
+  width: 100%;
+  @media (max-width: 800px) {
+    padding: 0 10px;
+  }
+}
+
+.auth {
+  display: grid;
+  place-items: center;
+}
+
+/*--
+    - Common Classes
+-----------------------------------------*/
+
+.m-top-10   {
+  margin-top: 10px;
+}
+.m-top-20   {
+  margin-top: 20px;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.flex-rows {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.main__sider {
+  background-color: $c-main;
+  text-align: center;
+  z-index: 999;
+  .ant-layout-sider-children {
+    position: fixed;
+    height: 100%;
+    z-index: 999;
+  }
+
+  &--logo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    &--img {
+      border-radius: 8px;
+    }
+  }
+
+  &__menu {
+    background-color: $c-main;
+  }
+}
+.main__layout {
+  padding: 0 30px 0 30px;
+}
+
+.main__footer {
+  padding: 18px 50px;
+}
+
+.fixed__height {
+  overflow-y: auto;
+  max-height: 100%;
+  height: calc(60vh - 80px);
+}
+
+.tag__custom {
+  border-radius: 50px;
+  font: italic normal 300 16px/22px Nunito;
+  padding: 0 25px;
+}
+
+.ant-page-header-heading-title {
+  color: $c-main;
+}
+
+.load__more {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #636fae;
+}
+
+.section__call__title {
+  z-index: 99999;
+  background-color: $c-black;
+  padding: 8px 10px;
+  color: $c-white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.call__section {
+  height: 100vh;
+  width: 100%;
+
+  &__actions {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+
+    &__buttons {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  &__operator {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: 200px;
+    z-index: 9999999;
+  }
+
+  &__video {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.page-container {
+  height: 100%;
+  padding-top: 60px;
+  @media (max-width: 800px) {
+    padding-top: 30px;
+  }
+
+  @media (max-width: 500px) {
+    padding-top: 20px;
+  }
+}
+// --------------------------------- Onboarding -----------------------------------
+
+.onboarding__container {
+  height: 100vh;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.shap_login {
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+  width: 300px;
+}
+
+// Sign UP
+
+.signin_steps_title {
+  font-size: 24px;
+  color: #000066;
+}
+.signin_steps_subtitle {
+  font-size: 18px;
+}
+.onboarding__steps__wrapper {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+}
+.onboarding__steps__wrapper_container {
+  background-color: #fff;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.onboarding__steps__wrapper_container_row {
+  margin: 20px;
+}
+.signin_phonestep_top_img {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+.signin_phonestep_img {
+  height: 20px;
+  width: 20px;
+}
+
+.onboarding__steps__wrapper_container_row_input {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.onboarding__steps__wrapper_container_row_input_item {
+  width: 85%;
+}
+
+.shap_icon {
+  background-color: #f4f6f9;
+  padding: 7px;
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 39px;
+  border: 1px solid #dfe5ed;
+}
+
+.onboarding__steps__wrapper_container_row_resend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_icon {
+    width: 30px;
+    height: 30px;
+    background-color: $c-second;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+  }
+
+  h5 {
+    font-size: 14px;
+    color: $c-black;
+  }
+}
+
+// --------------------------------- END Onboarding -----------------------------------
+
+// --------------------------------- RESPONSIVE
+@media (max-width: 576px) {
+  .shap_login {
+    display: none;
+  }
+  .signin_steps_subtitle {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 479px) {
+  .main__layout {
+    padding: 10px 20px 0 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main__layout {
+    padding: 20px 10px 0 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+// Toggle Mobile
+.main__layout--icon {
+  cursor: pointer;
+  align-items: center;
+  display: none;
+  width: max-content;
+  position: absolute;
+  top: 1%;
+  right: 1.5%;
+  padding: 2px;
+  border-radius: 4px;
+  z-index: 99;
+
+  i {
+    color: #000;
+    display: block !important;
+  }
+  @media(max-width: 768px) {
+    display: flex;
+  }
+}
+
+.loading--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}

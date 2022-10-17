@@ -1,0 +1,23 @@
+.custom--table {
+
+    .ant-table {}
+  
+    .ant-table-thead > tr > th {
+      background: transparent !important;
+      border-bottom: 2px solid $ONYX_LIGHTER !important;
+      color: $ONYX_BLACK;
+      font-size: clamp(14px, 3vw, 18px);
+      font-weight: 600;
+    }
+  
+    .ant-table-tbody > tr > td {
+      border-bottom: 2px solid $ONYX_LIGHTER !important;
+      padding: 16px 14px !important;
+      font-size: clamp(14px, 3vw, 18px);
+      font-weight: 300;
+    }
+  
+    .ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+      display: none;
+    }
+  }

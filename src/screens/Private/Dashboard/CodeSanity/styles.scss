@@ -1,0 +1,28 @@
+@import "../../../../shared/style/components/colors.scss";
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.desc-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.actionText {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.icons {
+    margin-right: 10px;
+    font-size: 42px;
+}
+

@@ -1,0 +1,54 @@
+//Sizing Variables
+$grid-breakpoints: (
+  xs: 0,
+  ss: 380px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+) !default;
+
+//Colours
+$c-main: #172975;
+$c-main-dark: #00447A;
+$c-second: #00BDBB;
+$c-second-dark: #ee7388;
+$c-red: #c94f60;
+$c-black: #303030;
+$c-body: #f7f9fc;
+$c-white: #ffffff;
+$c-gray-light: #A0ACB8;
+$c-gray-d9: #cacfd9;
+$c-gray: #575f6b;
+$c-gray-l2: #fcfcfc;
+$c-blue-dark: #002e74;
+$c-second-opacity: #ffebef;
+$c-main-opacity: #EAEFFF;
+$c-main-dark-opacity: #C1C9DD;
+$c-green: #0DB748;
+
+
+
+$c-grey-DD: #dddddd;
+$c-grey-23: #232323;
+$c-grey-f7: #f7f7f7;
+$c-grey-95: #898f95;
+$c-grey-b9: #c5d2e0;
+
+//Fonts
+$base-font-size: 16 !default;
+$font-main: "Nunito", sans-serif;
+$font-head: "Nunito", sans-serif;
+$font-text: "Nunito", sans-serif;
+
+$font70: 70px;
+$font60: 60px;
+$font36: 36px;
+$font32: 32px;
+$font24: 24px;
+$font20: 20px;
+$font18: 18px;
+$font16: 16px;
+$font14: 14px;
+$font12: 12px;
+$font10: 10px;

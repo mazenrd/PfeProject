@@ -1,0 +1,8 @@
+tr {
+  border-top: 2px solid #f7f8fa;
+  padding: 100px;
+  border-radius: 2px;
+}
+tr:first-child {
+  border-top: none;
+}

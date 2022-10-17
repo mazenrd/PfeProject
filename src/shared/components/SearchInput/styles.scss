@@ -1,0 +1,26 @@
+@import "../../style/components/colors.scss";
+.search_input {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 12px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: $CULTURED;
+    border-radius: 4px;
+}
+
+.search_input-field {
+    background: $CULTURED;
+    border-width: 0;
+    border-radius: 4px;
+    outline: none;
+}
+
+.search_input-btn {
+    background: $CULTURED;
+    height: 35px;
+    outline: none;
+    border-color: $CULTURED;
+    border-width: 0;
+}

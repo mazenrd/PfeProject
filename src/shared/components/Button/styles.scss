@@ -1,0 +1,67 @@
+@import "../../../shared/style/components/colors.scss";
+@import "/src/shared/style/components/fonts.scss";
+.button-container {
+  border-radius: 6px;
+  column-gap: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.ant-btn {
+  border-color: $CULTURED;
+  color: $BLUE;
+  border-radius: 6px;
+  font: normal normal medium 14px/63px Archivo;
+}
+
+.primary {
+  background-color: $WHITE;
+}
+
+.secondary {
+  background-color: $LIGHT_PURPLE;
+  color: $CULTURED;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.tertiary {
+  background-color: $LIGHT_GREY;
+  color: $CULTURED;
+  text-align: left;
+  letter-spacing: 0px;
+  opacity: 0.04;
+}
+.fourthly {
+  background-color: $PURPLE;
+  color: $CULTURED;
+  text-align: left;
+}
+
+.withPadding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.large {
+  flex: 1;
+  width: 100%;
+}
+.notext {
+  display: none;
+}
+.position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 300px;
+  font-size: 50px;
+  background-color: black;
+  text-align: center;
+  font-family: "poppins";
+  color: azure;
+}

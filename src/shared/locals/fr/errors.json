@@ -1,0 +1,10 @@
+{
+  "VALIDATIONS": {
+    "REQUIRED": "Champ obligatoir !",
+    "EMAIL": "Email n'est pas valide !",
+    "PHONE": "Numéro de téléphone n'est pas valide !",
+    "NUMBER": "Veuillez entrer un nombre !",
+    "MATCH": "Les mots de passe ne correspondent pas",
+    "DATE": "Date invalide"
+  }
+}

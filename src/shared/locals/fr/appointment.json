@@ -1,0 +1,28 @@
+{
+  "FIRST_NAME": "Prénom",
+  "LAST_NAME": "Nom",
+  "EXPIRATION_DATE": "Date d'expiration",
+  "OCCUPATION": "Occupation",
+  "EMAIL": "Email",
+  "PHONE": "Numero de telephone",
+  "START_DATE": "Date de début",
+  "END_DATE": "Date de fin",
+  "STATUS": {
+    "PENDING" : "En attente",
+    "STARTED" : "Démarrer",
+    "ENDED" : "Términé"
+  },
+  "DELETE": {
+    "TITLE" : "Êtes vous sure",
+    "OK" : "Supprimer",
+    "CANCEL" : "Annuler"
+  },
+  "DETAILS": "Detail de la réunion",
+  "USER_INFO" : "Information du client",
+  "NOTES": "Notes",
+  "SHARE" : "Partager votre nouvelle réunion",
+  "COPY_LINK":"Copiez ce lien et envoyez-le aux utilisateurs",
+  "COPY_SUCCEEDED":"Copie dans le presse papier réussie",
+  "NO_RECORDING":"Ce rendez ne contient aucun enregistrement",
+  "NO_DATA": "Pas de données disponibles"
+}

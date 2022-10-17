@@ -1,0 +1,44 @@
+.ant-table {
+  margin-top: 20px;
+  background: white;
+}
+.ant-table-thead > tr > th {
+  background: #F8F8FF;
+}
+.ant-table-thead{
+  font: normal normal medium 11px/13px Rubik;
+  font-weight: 500;
+  font-size: 13px;
+  color: #515C6F;
+  text-transform: uppercase;
+}
+.ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+  background: rgba(#fe5d80, .07);
+}
+.horizontal-scroll{
+  overflow-x: auto;
+}
+.white-row{
+  background-color: white;
+  font: normal normal medium 12px/14px Rubik;
+  font-size: 14px;
+  color: #515C6F;
+  font-weight: 600;
+}
+.ant-table-tbody > tr > td{
+  border-color: #F8F8FF;
+  border-bottom-width: 2px;
+}
+.ant-table-thead > tr > th{
+  border-width: 0;
+}
+.ant-pagination{
+  display: flex;
+  justify-content: flex-end;
+}
+.ant-pagination-item-active {
+  font-weight: 500;
+  color:white;
+  background: #112b75;
+  border-color: #112b75;
+}

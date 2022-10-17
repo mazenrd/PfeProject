@@ -1,0 +1,21 @@
+.indicator-container{
+  padding: 12px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  .indicator-text{
+    font: normal normal medium 15px/24px Rubik;
+  }
+}
+.indicator-container-pink{
+  background-color: #FE5D8010;
+  .indicator-text{
+    color: #FE5D80;
+  }
+}
+.indicator-container-blue{
+  background-color: #5462AA10;
+  .indicator-text{
+    color: #5462AA;
+  }
+}
